@@ -204,6 +204,14 @@ section p {
   display: block;
 }
 .card h3 { margin: 0 0 8px; font-size: 1.07rem; }
+.card h3 a {
+  color: inherit;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+.card h3 a:hover {
+  color: var(--accent);
+}
 .card p { font-size: 0.95rem; color: var(--muted); margin-bottom: 12px; }
 .tags {
   display: flex;
