@@ -1,0 +1,21 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="720" rx="32" fill="#07111F"/>
+  <rect x="48" y="48" width="1104" height="624" rx="24" fill="#0F2037" stroke="#2E4A67" stroke-width="3"/>
+  <rect x="96" y="120" width="336" height="240" rx="24" fill="#132B44" stroke="#67E8F9" stroke-width="2"/>
+  <circle cx="216" cy="240" r="72" fill="#67E8F9" fill-opacity="0.16" stroke="#67E8F9" stroke-width="4"/>
+  <path d="M180 240H252" stroke="#67E8F9" stroke-width="8" stroke-linecap="round"/>
+  <path d="M216 204V276" stroke="#67E8F9" stroke-width="8" stroke-linecap="round"/>
+  <rect x="492" y="144" width="612" height="144" rx="18" fill="#132B44" stroke="#7C3AED" stroke-width="2"/>
+  <path d="M552 216H660" stroke="#D8C8FF" stroke-width="10" stroke-linecap="round"/>
+  <rect x="660" y="180" width="72" height="72" rx="16" fill="#7C3AED"/>
+  <path d="M732 216H840" stroke="#D8C8FF" stroke-width="10" stroke-linecap="round"/>
+  <rect x="840" y="180" width="72" height="72" rx="16" fill="#67E8F9"/>
+  <path d="M912 216H1008" stroke="#D8C8FF" stroke-width="10" stroke-linecap="round"/>
+  <rect x="144" y="420" width="912" height="156" rx="24" fill="#132B44" stroke="#38BDF8" stroke-width="2"/>
+  <rect x="192" y="468" width="156" height="24" rx="12" fill="#67E8F9"/>
+  <rect x="384" y="468" width="216" height="24" rx="12" fill="#7C3AED"/>
+  <rect x="636" y="468" width="180" height="24" rx="12" fill="#67E8F9"/>
+  <rect x="852" y="468" width="144" height="24" rx="12" fill="#38BDF8"/>
+  <text x="96" y="94" fill="#E8F1FF" font-family="Segoe UI, Arial, sans-serif" font-size="34" font-weight="700">Flow Control System</text>
+  <text x="96" y="600" fill="#9FB4CC" font-family="Segoe UI, Arial, sans-serif" font-size="28">Embedded • Automation • Control</text>
+</svg>
