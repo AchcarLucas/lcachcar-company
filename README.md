@@ -1,46 +1,48 @@
-# Lucas Campos Achcar | Portfólio
+# Lucas Campos Achcar | Portfolio
 
-Este projeto é um portfólio em HTML/CSS simples, criado para apresentar meu perfil, projetos e links de contato de forma visual e profissional.
+This project is a modern personal portfolio website built with plain HTML, CSS, and JavaScript. It presents a polished overview of my background, technical interests, featured projects, and contact links in a clean and professional layout.
 
-## Objetivo
+## Purpose
 
-Mostrar de maneira organizada:
-- minha trajetória e interesses técnicos;
-- projetos destacados no GitHub;
-- links para GitHub e LinkedIn;
-- uma apresentação visual mais forte para recrutadores e visitantes.
+The website was created to:
+- showcase my technical profile and interests;
+- highlight selected GitHub projects;
+- provide a stronger visual presentation for recruiters and visitors;
+- make the content available in English and Portuguese.
 
-## Tecnologias utilizadas
+## Technologies used
 
 - HTML5
 - CSS3
-- Imagens públicas de projetos e perfil
+- JavaScript
+- Local assets for project images and profile photo
 
-## Estrutura do projeto
+## Project structure
 
-- `index.html` — página principal do portfólio
-- `assets/` — imagens de perfil e projetos
+- `index.html` — main portfolio page
+- `styles.css` — visual styling and responsive layout
+- `script.js` — language switching and dynamic content
+- `assets/` — project images and profile assets
 
-## Como visualizar
+## How to view locally
 
-1. Abra o arquivo `index.html` em um navegador.
-2. Ou sirva a pasta localmente com um servidor simples:
+Run a simple local server from the project folder:
 
 ```bash
-python -m http.server 8000
+python3 -m http.server 8000
 ```
 
-Depois, acesse:
+Then open:
 
 ```text
 http://127.0.0.1:8000/
 ```
 
-## Links
+## Contact
 
 - GitHub: https://github.com/AchcarLucas
 - LinkedIn: https://www.linkedin.com/in/lucas-campos-3b803972/
 
-## Sobre o autor
+## About the author
 
-Sou um desenvolvedor e entusiasta de tecnologia com interesse em programação, física, jogos, computação gráfica, sistemas e algoritmos.
+I am a developer and technology enthusiast interested in programming, physics, games, computer graphics, systems, algorithms, and embedded electronics.
