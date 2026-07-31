@@ -46,3 +46,7 @@ http://127.0.0.1:8000/
 ## About the author
 
 I am a developer and technology enthusiast interested in programming, physics, games, computer graphics, systems, algorithms, and embedded electronics.
+
+## Note
+
+This portfolio was created 100% with the help of artificial intelligence, including the structure, content, styling, and organization of the project.
