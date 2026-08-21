@@ -266,13 +266,43 @@ section p {
   font-size: 0.93rem;
 }
 
+.coming-soon {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 16px;
+  border: 1px dashed rgba(103, 232, 249, 0.35);
+  background: rgba(103, 232, 249, 0.05);
+}
+.coming-soon .status {
+  padding: 5px 8px;
+  border-radius: 999px;
+  color: var(--accent);
+  background: rgba(103, 232, 249, 0.12);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.coming-soon strong {
+  color: var(--text);
+}
+
 @media (max-width: 820px) {
   .hero-grid,
   .grid,
   .project-grid,
-  .mini-projects,
+  .mini-projects {
+    grid-template-columns: 1fr;
+  }
+
   .hero {
     padding-top: 36px;
+  }
+
+  .coming-soon {
+    align-items: flex-start;
+    flex-direction: column;
   }
 
   section {
