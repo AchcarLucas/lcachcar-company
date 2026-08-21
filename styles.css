@@ -271,6 +271,8 @@ section p {
   align-items: center;
   gap: 12px;
   padding: 16px;
+  margin-top: 16px;
+  border-radius: 14px;
   border: 1px dashed rgba(103, 232, 249, 0.35);
   background: rgba(103, 232, 249, 0.05);
 }
