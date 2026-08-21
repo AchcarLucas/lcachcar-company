@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lucas Campos Achcar | Portfolio</title>
+  <title>Lucas Campos Achcar | Desenvolvedor de Software</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -15,12 +15,8 @@
   <header class="hero">
     <div class="container hero-grid">
       <div>
-        <span class="badge" data-i18n="hero.badge">Portfolio • Software • Physics • Games</span>
         <h1 data-i18n="hero.name">Lucas Campos Achcar</h1>
-        <p class="lead" data-i18n="hero.lead">
-          Developer and technology enthusiast focused on computing, simulation, systems, graphics, and game development.
-          My work combines programming, mathematics, physics, and hands-on experimentation across algorithms, engines, and embedded systems.
-        </p>
+        <p class="lead" data-i18n="hero.lead">Minha trajetória tem sido construída por meio de projetos e estudos em desenvolvimento de software, sempre tentando entender como diferentes camadas de uma solução se conectam. Tenho explorado C++, Python e outras tecnologias em projetos de computação gráfica, análise numérica e sistemas embarcados, passando por jogos, ferramentas educacionais, análise de sinais e monitoramento. Esses projetos são uma forma de aprender na prática, explorando desde a implementação de shaders e algoritmos até o desenvolvimento de firmware, hardware e aplicações completas.</p>
         <div class="actions">
           <a class="btn primary" href="https://github.com/AchcarLucas" target="_blank" rel="noreferrer" data-i18n="hero.github">GitHub</a>
           <a class="btn secondary" href="https://www.linkedin.com/in/lucas-campos-3b803972/" target="_blank" rel="noreferrer" data-i18n="hero.linkedin">LinkedIn</a>
@@ -29,9 +25,9 @@
           <li data-i18n="skills.python">Python</li>
           <li data-i18n="skills.cpp">C/C++</li>
           <li data-i18n="skills.opengl">OpenGL</li>
-          <li data-i18n="skills.arduino">Arduino</li>
-          <li data-i18n="skills.electronics">Electronics</li>
-          <li data-i18n="skills.crypto">Cryptography</li>
+          <li data-i18n="skills.esp32">ESP32 / Arduino</li>
+          <li data-i18n="skills.electronics">Embedded</li>
+          <li data-i18n="skills.systems">Systems</li>
           <li data-i18n="skills.algorithms">Algorithms</li>
         </ul>
       </div>
@@ -39,8 +35,8 @@
       <aside class="profile-card">
         <img src="https://media.licdn.com/dms/image/v2/C4E03AQF3uQDKimBhdQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516454884926?e=1788998400&v=beta&t=1PIfqTpnM6HQMy_IfDXpJM6sy3P6K7lPbKlCgL52Bjs" alt="Lucas Campos Achcar" />
         <div class="info">
-          <h2 data-i18n="profile.title">Profile</h2>
-          <p data-i18n="profile.text">Projects focused on engineering, applied mathematics, and creating digital experiences.</p>
+          <h2 data-i18n="profile.title">Resumo profissional</h2>
+          <p data-i18n="profile.text">Perfil hands-on, com projetos públicos em software, gráficos computacionais, eletrônica e fundamentos de sistemas.</p>
         </div>
       </aside>
     </div>
@@ -48,18 +44,15 @@
 
   <main class="container">
     <section>
-      <h2 data-i18n="about.title">About</h2>
-      <p data-i18n="about.text">
-        I am interested in building technical solutions with a strong foundation in science and programming.
-        Over time, I have developed projects that span physical simulations, signal analysis, game development, computer graphics, and embedded systems.
-      </p>
+      <h2 data-i18n="about.title">Resumo</h2>
+      <p data-i18n="about.text">Meu trabalho combina implementação e investigação técnica: desenvolvo ferramentas em Python, aplicações e bibliotecas em C++, experiências com OpenGL/GLSL e soluções embarcadas com ESP32. Tenho interesse especial em renderização, simulação, protocolos, eletrônica e algoritmos.</p>
     </section>
 
     <section>
       <h2 data-i18n="skills.title">Skills</h2>
       <div class="grid">
         <div>
-          <p><strong data-i18n="skills.dev">Development</strong></p>
+          <p><strong data-i18n="skills.dev">Linguagens e ferramentas</strong></p>
           <div class="skill-list">
             <span data-i18n="skills.python">Python</span>
             <span data-i18n="skills.cpp">C/C++</span>
@@ -75,18 +68,19 @@
             <span data-i18n="skills.electronics">Electronics</span>
             <span data-i18n="skills.crypto">Cryptography</span>
             <span data-i18n="skills.games">Games</span>
+            <span data-i18n="skills.embedded">Embedded systems</span>
           </div>
         </div>
       </div>
     </section>
 
     <section>
-      <h2 data-i18n="projects.title">Featured projects</h2>
+      <h2 data-i18n="projects.title">Projetos selecionados</h2>
       <div class="project-grid">
         <article class="card">
           <img src="assets/projects/qperiod.png" alt="QPeriodGameUnity preview" />
           <h3><a href="https://github.com/AchcarLucas/QPeriodGameUnity" target="_blank" rel="noreferrer">QPeriodGameUnity</a></h3>
-          <p data-i18n="projects.qperiod">Game project developed with Unity, focused on interactive gameplay and a polished experience.</p>
+          <p data-i18n="projects.qperiod">Quiz educacional de química desenvolvido em Unity 2021, com perguntas sobre a tabela periódica, ranking local persistido em arquivo e builds para Windows, Linux e WebGL.</p>
           <div class="tags">
             <span data-i18n="projects.tag_unity">Unity</span>
             <span data-i18n="projects.tag_games">Games</span>
@@ -97,7 +91,7 @@
         <article class="card">
           <img src="assets/projects/retrogear_preview.gif" alt="RetroGear-Engine preview" />
           <h3><a href="https://github.com/AchcarLucas/RetroGear-Engine" target="_blank" rel="noreferrer">RetroGear Engine</a></h3>
-          <p data-i18n="projects.retrogear">Engine-oriented project focused on game experience development, architecture, and experimentation.</p>
+          <p data-i18n="projects.retrogear">Engine 2D em Python inspirada no Top Gear de 1985, organizada em módulos de código, configurações por ambiente, assets de pixel art e otimizações de rasterização.</p>
           <div class="tags">
             <span data-i18n="projects.tag_game">Game Dev</span>
             <span data-i18n="projects.tag_engine">Engine</span>
@@ -108,7 +102,7 @@
         <article class="card">
           <img src="https://github.com/AchcarLucas/Flow-Control-System/blob/main/Hardware%20-%20Aspecto%20Geral%20(Diagrama%20de%20Blocos)/block-diagram-hardware-flow-control-system-detail-2026-03-23.png?raw=true" alt="Flow Control System preview" />
           <h3><a href="https://github.com/AchcarLucas/Flow-Control-System" target="_blank" rel="noreferrer">Flow Control System</a></h3>
-          <p data-i18n="projects.flow">Electronics and control project focused on embedded systems and automation logic.</p>
+          <p data-i18n="projects.flow">Sistema embarcado para controle e monitoramento da entrada e saída de pessoas ou objetos, usando sensores infravermelhos, ESP32 para processar os eventos e a tecnologia SQLite para registrar os dados.</p>
           <div class="tags">
             <span data-i18n="projects.tag_embedded">Embedded</span>
             <span data-i18n="projects.tag_electronics">Electronics</span>
@@ -119,7 +113,7 @@
         <article class="card">
           <img src="assets/projects/dft_wave.png" alt="DFT Analyzer preview" />
           <h3><a href="https://github.com/AchcarLucas/DFT-Analyzer" target="_blank" rel="noreferrer">DFT Analyzer</a></h3>
-          <p data-i18n="projects.dft">Signal analysis tool focused on the Fourier Transform and interpretation of physical phenomena.</p>
+          <p data-i18n="projects.dft">Projeto didático em Python para entender o funcionamento da Transformada Discreta de Fourier, experimentando com ondas compostas, sinais WAV e visualizações de frequência, magnitude e fase.</p>
           <div class="tags">
             <span data-i18n="projects.tag_python">Python</span>
             <span data-i18n="projects.tag_signals">Signals</span>
@@ -130,7 +124,7 @@
         <article class="card">
           <img src="assets/projects/render_monkey.png" alt="Render3D preview" />
           <h3><a href="https://github.com/AchcarLucas/Render3D-Algebra-Linear-Python" target="_blank" rel="noreferrer">Render3D Linear Algebra in Python</a></h3>
-          <p data-i18n="projects.render3d">Project that combines linear algebra and 3D rendering to demonstrate visual and computational concepts.</p>
+          <p data-i18n="projects.render3d">Renderizador experimental em Python criado para estudar álgebra linear aplicada à computação gráfica, explorando pontos, matrizes e transformações de perspectiva na construção de cenas 3D.</p>
           <div class="tags">
             <span data-i18n="projects.tag_graphics">Graphics</span>
             <span data-i18n="projects.tag_algebra">Algebra</span>
@@ -141,7 +135,7 @@
         <article class="card">
           <img src="assets/projects/blackjack_1.png" alt="BlackJack POC preview" />
           <h3><a href="https://github.com/AchcarLucas/BlackJack-Python-POC" target="_blank" rel="noreferrer">Blackjack Python POC</a></h3>
-          <p data-i18n="projects.blackjack">Proof of concept in Python to validate core game mechanics and system logic for a future project in Godot.</p>
+          <p data-i18n="projects.blackjack">Núcleo de regras de Blackjack em Python, desacoplado de bibliotecas gráficas e estruturado com orientação a objetos para testar dealer, estados e decisões antes da migração para Godot.</p>
           <div class="tags">
             <span data-i18n="projects.tag_python">Python</span>
             <span data-i18n="projects.tag_games">Games</span>
@@ -152,7 +146,7 @@
         <article class="card">
           <img src="https://github.com/AchcarLucas/linear-algebra-tool/raw/main/img_example/preview.png?raw=true" alt="linear-algebra-tool preview" />
           <h3><a href="https://github.com/AchcarLucas/linear-algebra-tool" target="_blank" rel="noreferrer">Linear Algebra Tools</a></h3>
-          <p data-i18n="projects.linearalgebra">Interactive tool for visualizing and learning linear algebra concepts through computation and graphics.</p>
+          <p data-i18n="projects.linearalgebra">Ferramenta educacional em Python com Pygame e NumPy para explorar vetores, matrizes e transformações lineares em uma visualização 3D interativa com rotação por entrada do usuário.</p>
           <div class="tags">
             <span data-i18n="projects.tag_math">Math</span>
             <span data-i18n="projects.tag_graphics">Graphics</span>
@@ -163,7 +157,7 @@
         <article class="card">
           <img src="assets/projects/learn_modern_opengl.gif" alt="learn-modern-opengl preview" />
           <h3><a href="https://github.com/AchcarLucas/learn-modern-opengl" target="_blank" rel="noreferrer">Learn Modern OpenGL</a></h3>
-          <p data-i18n="projects.learnmodernopengl">Modern OpenGL learning project focused on graphics fundamentals, shaders, and rendering pipelines.</p>
+          <p data-i18n="projects.learnmodernopengl">Coleção de exemplos em C++ e GLSL que percorre o pipeline de renderização moderno: shaders, materiais, skybox, geometry shader, instancing, sombras, HDR, deferred rendering e SSAO.</p>
           <div class="tags">
             <span data-i18n="projects.tag_graphics">Graphics</span>
             <span data-i18n="projects.tag_opengl">OpenGL</span>
@@ -183,7 +177,7 @@
         </div>
         <div class="mini-project">
           <a href="https://github.com/AchcarLucas/world-cup-2026-sticker-pack-estimator" target="_blank" rel="noreferrer"><strong>world-cup-2026-sticker-pack-estimator</strong></a>
-          <span data-i18n="other.montecarlo">Python application that uses Monte Carlo to estimate the minimum number of packs needed.</span>
+          <span data-i18n="other.montecarlo">Python application that uses Monte Carlo to estimate how many World Cup sticker packs are needed to complete the album.</span>
         </div>
         <div class="mini-project">
           <a href="https://github.com/AchcarLucas/worldcup-haskell" target="_blank" rel="noreferrer"><strong>worldcup-haskell</strong></a>
@@ -192,6 +186,14 @@
         <div class="mini-project">
           <a href="https://github.com/AchcarLucas/An-Introduction-To-Computer-Simulation-Methods" target="_blank" rel="noreferrer"><strong>An-Introduction-To-Computer-Simulation-Methods</strong></a>
           <span data-i18n="other.simulation_methods">Study project focused on computer simulation methods and numerical modeling.</span>
+        </div>
+        <div class="mini-project">
+          <a href="https://github.com/AchcarLucas/ATMega328P-Disassembler" target="_blank" rel="noreferrer"><strong>ATMega328P-Disassembler</strong></a>
+          <span data-i18n="other.disassembler">C++ disassembler that reads HEX files compiled for the ATmega328P and decodes 16-bit and 32-bit AVR opcodes into readable assembly.</span>
+        </div>
+        <div class="mini-project">
+          <a href="https://github.com/AchcarLucas/bitcoin-miner-python" target="_blank" rel="noreferrer"><strong>bitcoin-miner-python</strong></a>
+          <span data-i18n="other.bitcoin">Python implementation for studying Bitcoin block mining, transactions, hashing, and RPC communication in regtest.</span>
         </div>
 
       </div>
