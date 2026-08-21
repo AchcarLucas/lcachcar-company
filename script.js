@@ -165,4 +165,4 @@ document.querySelectorAll('.lang-btn').forEach((btn) => {
 });
 
 const savedLang = localStorage.getItem('portfolio-lang');
-applyLanguage(savedLang === 'en' ? 'en' : 'pt');
+applyLanguage(savedLang === 'pt' ? 'pt' : 'en');
