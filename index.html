@@ -7,6 +7,18 @@
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="cookie-banner" id="cookie-banner" hidden>
+    <div class="cookie-banner__content">
+      <div>
+        <strong>Analytics consent</strong>
+        <p>This website uses Google Analytics only to understand traffic and improve the experience. No personal data is used for profiling.</p>
+      </div>
+      <div class="cookie-banner__actions">
+        <button id="reject-analytics" class="cookie-btn cookie-btn--secondary" type="button">Reject</button>
+        <button id="accept-analytics" class="cookie-btn cookie-btn--primary" type="button">Accept</button>
+      </div>
+    </div>
+  </div>
   <div class="lang-switcher" aria-label="Language switcher">
     <button class="lang-btn active" data-lang="en">EN</button>
     <button class="lang-btn" data-lang="pt">PT-BR</button>

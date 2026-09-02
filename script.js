@@ -1,3 +1,68 @@
+const GA_ID = 'G-WXNBBTR0ZG';
+const ANALYTICS_CONSENT_KEY = 'analytics-consent';
+
+function loadGoogleAnalytics() {
+  if (window.googleAnalyticsLoaded) {
+    return;
+  }
+
+  const script = document.createElement('script');
+  script.async = true;
+  script.src = `https://www.googletagmanager.com/gtag/js?id=${GA_ID}`;
+  document.head.appendChild(script);
+
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    window.dataLayer.push(arguments);
+  }
+
+  window.gtag = gtag;
+  gtag('js', new Date());
+  gtag('config', GA_ID, {
+    anonymize_ip: true,
+    allow_google_signals: false,
+    allow_ad_personalization_signals: false
+  });
+
+  window.googleAnalyticsLoaded = true;
+}
+
+function saveAnalyticsConsent(choice) {
+  localStorage.setItem(ANALYTICS_CONSENT_KEY, choice);
+  const banner = document.getElementById('cookie-banner');
+  if (banner) {
+    banner.hidden = true;
+  }
+
+  if (choice === 'accepted') {
+    loadGoogleAnalytics();
+  }
+}
+
+function initAnalyticsConsent() {
+  const consent = localStorage.getItem(ANALYTICS_CONSENT_KEY);
+  const banner = document.getElementById('cookie-banner');
+
+  if (!banner) {
+    return;
+  }
+
+  if (consent === 'accepted') {
+    loadGoogleAnalytics();
+    banner.hidden = true;
+    return;
+  }
+
+  if (consent === 'rejected') {
+    banner.hidden = true;
+    return;
+  }
+
+  banner.hidden = false;
+  document.getElementById('accept-analytics')?.addEventListener('click', () => saveAnalyticsConsent('accepted'));
+  document.getElementById('reject-analytics')?.addEventListener('click', () => saveAnalyticsConsent('rejected'));
+}
+
 const translations = {
   en: {
     'page.title': 'Lucas Campos Achcar | Software Developer',
@@ -166,3 +231,4 @@ document.querySelectorAll('.lang-btn').forEach((btn) => {
 
 const savedLang = localStorage.getItem('portfolio-lang');
 applyLanguage(savedLang === 'pt' ? 'pt' : 'en');
+initAnalyticsConsent();
