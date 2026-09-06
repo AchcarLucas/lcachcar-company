@@ -113,7 +113,7 @@ const translations = {
     'projects.tag_electronics': 'Electronics',
     'projects.tag_embedded': 'Embedded',
     'projects.tag_opengl': 'OpenGL',
-    'projects.flow': 'Embedded system for monitoring and controlling the inflow and outflow of people or objects, using infrared sensors, an ESP32 to process events, and SQLite technology to store the data.',
+    'projects.flow': 'Embedded system for monitoring and controlling the inflow and outflow of people or objects, using laser sensors, an ESP32 to process events, and SQLite technology to store the data.',
     'projects.view_repo': 'View repository →',
     'apps.title': 'Apps on the Play Store',
     'apps.text': 'This section will be updated soon with apps published on the Google Play Store.',
