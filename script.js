@@ -183,7 +183,7 @@ const translations = {
     'projects.tag_electronics': 'Eletrônica',
     'projects.tag_embedded': 'Embarcado',
     'projects.tag_opengl': 'OpenGL',
-    'projects.flow': 'Sistema embarcado para controle e monitoramento da entrada e saída de pessoas ou objetos, usando sensores infravermelhos, ESP32 para processar eventos e a tecnologia SQLite para armazenar os dados.',
+    'projects.flow': 'Sistema embarcado para controle e monitoramento da entrada e saída de pessoas ou objetos, usando sensores lasers, ESP32 para processar eventos e a tecnologia SQLite para armazenar os dados.',
     'projects.view_repo': 'Ver repositório →',
     'apps.title': 'Aplicativos na Play Store',
     'apps.text': 'Esta seção será atualizada em breve com aplicativos publicados na Google Play Store.',
