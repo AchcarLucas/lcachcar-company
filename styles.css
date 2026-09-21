@@ -273,6 +273,10 @@ section p {
   border-radius: 18px;
   background: linear-gradient(135deg, rgba(16, 43, 67, 0.95), rgba(15, 32, 55, 0.95));
 }
+.app-upcoming-intro {
+  margin-top: 28px;
+  margin-bottom: 0;
+}
 .app-card--upcoming {
   border-style: dashed;
   background: rgba(103, 232, 249, 0.05);
